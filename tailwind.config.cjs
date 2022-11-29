@@ -26,21 +26,36 @@ module.exports = {
       S: "1.625rem",
       XS: "1.3125rem",
     },
+    screens: {
+      tablet: "768px",
+      desktop: "1440px",
+    },
     extend: {
       width: {
         "9/10": "90%",
       },
+      maxWidth: {
+        "480px": "480px",
+      },
       minHeight: {
+        "70px": "70px",
+      },
+      margin: {
+        "60px": "60px",
         "70px": "70px",
       },
       borderRadius: {
         "20px": "20px",
+        "40px": "40px",
       },
       borderWidth: {
         "3px": "3px",
       },
       boxShadow: {
-        mainMenuShadow: "0px 10px 0px #000000", 
+        mainMenuShadow: "0px 10px 0px #000000",
+      },
+      opacity: {
+        "2/3": "0.66",
       },
     },
   },
