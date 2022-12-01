@@ -2,9 +2,9 @@ import iconCheck from "../assets/imgs/icon-check.svg";
 
 export default () => {
   return (
-    <>
-      <div className="relative flex justify-center">
-        <div className="mx-auto w-9/10 rounded-t-[30px] rounded-b-[33px] bg-black shadow-mainMenuShadow">
+    <div className="flex min-h-screen items-center bg-purple-400">
+      <div className="relative mx-auto flex justify-center">
+        <div className="mx-auto w-9/10 max-w-[480px] rounded-t-[30px] rounded-b-[33px] bg-black shadow-mainMenuShadow">
           <div className="flex flex-col gap-8 rounded-40px bg-white px-5 pt-[30px] pb-[60px]">
             <h1 className="text-center text-L font-bold uppercase leading-L">
               Rules
@@ -57,6 +57,6 @@ export default () => {
           <img src={iconCheck} alt="" />
         </button>
       </div>
-    </>
+    </div>
   );
 };

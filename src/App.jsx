@@ -1,13 +1,13 @@
 import MainMenu from "./components/MainMenu";
 import Rules from "./components/Rules";
+import Game from "./components/game/Game";
 
 export default function App() {
   return (
     <>
-      <div className="flex min-h-screen items-center bg-purple-400">
-        <Rules />
-      </div>
+      {/* <Rules /> */}
       {/* <MainMenu /> */}
+      <Game />
     </>
   );
 }
